@@ -1,0 +1,12 @@
+Exercise 1. Write a method that given a 2D array of ints, prints it out.
+
+Exercise 2. Write a method that given a 2D array of ints, calculates the sum.
+
+Exercise 3. Write a method that given two 2D arrays of ints, calculates the matrix sum.
+
+Exercise 4. Write a method that given two 2D arrays of doubles, calculates the matrix difference.
+
+Exercise 5. Write a method that given a 2x2 matrix 2D array of doubles, calculate the determinate.
+
+Exercise 6. Write a method that given a 3x3 matrix 2D array of doubles, calculate the determinate.
+
