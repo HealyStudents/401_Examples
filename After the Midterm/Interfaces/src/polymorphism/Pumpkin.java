@@ -19,6 +19,11 @@ public class Pumpkin implements Comparable<Pumpkin>
 		else if(this.mass < other.mass) return -1;
 		return 0;
 	}
+	
+	public String toString()
+	{
+		return this.farmer + ": " + this.mass;
+	}
 
 	public static void main(String[] args)
 	{
@@ -30,5 +35,10 @@ public class Pumpkin implements Comparable<Pumpkin>
 		};
 		
 		Arrays.sort(pumpkins);
+		
+		for(Pumpkin p : pumpkins)
+		{
+			System.out.println(p);
+		}
 	}
 }
