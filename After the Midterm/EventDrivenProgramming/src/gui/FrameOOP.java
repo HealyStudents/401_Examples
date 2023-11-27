@@ -10,27 +10,27 @@ import java.awt.event.WindowEvent;
  */
 public class FrameOOP extends Frame
 {
-    public FrameOOP(String name)
-    {
-	super(name);
-	
-	this.add(new Label("Hello, but object-oriented!"));
-	this.setSize(500, 500);
-        
-        //Setting a function that runs when the window is closed
-	this.addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowClosing(WindowEvent e) {
-        	dispose();
-            }
-        });
-        
-	this.setVisible(true);
-    }
+	public FrameOOP(String name)
+	{
+		super(name);
 
-    public static void main(String[] args)
-    {
-	FrameOOP f = new FrameOOP("Simple OOP Frame");
-    }
+		this.add(new Label("Hello, but object-oriented!"));
+		this.setSize(500, 500);
+
+		//Setting a function that runs when the window is closed
+		this.addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {
+				dispose();
+			}
+		});
+
+		this.setVisible(true);
+	}
+
+	public static void main(String[] args)
+	{
+		FrameOOP f = new FrameOOP("Simple OOP Frame");
+	}
 
 }
