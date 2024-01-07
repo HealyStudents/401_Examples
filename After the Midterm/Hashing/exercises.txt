@@ -1,8 +1,0 @@
-Exercise 1. Ask the user for a string. Hash that string and print out the hash.
-
-Exercise 2. In a loop, ask a user for a string. Use a HashSet to keep track of each unique string the user has given you.
-
-Exercise 3. Modify Exercise 2 to use a HashMap. Now keep track of the frequency of each string.
-
-Exercise 4. Make a class called "Coin" that can be "flipped" to randomly give either heads or tails. Use a HashMap to keep track of frequencies of Heads and Tails after 100 flips.
-
