@@ -17,7 +17,8 @@ public class NoDefault
 	
 	public static void main(String[] args) 
 	{
-		NoDefault nd = new NoDefault();
+		//This line does not compile because the default constructor does not exist -- it has been overridden
+		//NoDefault nd = new NoDefault();
 	}
 
 }

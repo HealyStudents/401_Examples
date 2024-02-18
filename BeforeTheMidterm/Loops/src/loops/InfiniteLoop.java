@@ -1,5 +1,8 @@
 package loops;
 
+/**
+ * An example of an infinite loop based on our interest calculation example. With just one simple mistake, any loop can accidentally become infinite.
+ */
 public class InfiniteLoop 
 {
 

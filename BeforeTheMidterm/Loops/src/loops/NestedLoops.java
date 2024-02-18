@@ -1,5 +1,8 @@
 package loops;
 
+/**
+ * Two examples of nested for loops. Just by looking at the second example, can you confidently say what the output will be?
+ */
 public class NestedLoops 
 {
 

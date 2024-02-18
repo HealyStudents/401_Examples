@@ -1,5 +1,8 @@
 package loops;
 
+/**
+ * A practical use case of a loop -- while we haven't yet reached our target balance, we will simulate accumulation of interest over one year.
+ */
 public class Investment 
 {
 

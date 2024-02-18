@@ -1,5 +1,8 @@
 package constructor_examples;
 
+/**
+ * This code demonstrates using our Rectangle class.
+ */
 public class RectangleRunner 
 {
 

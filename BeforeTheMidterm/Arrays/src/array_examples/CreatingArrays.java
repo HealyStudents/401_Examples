@@ -1,5 +1,8 @@
 package array_examples;
 
+/**
+ * Various examples of declaring and initializing arrays.
+ */
 public class CreatingArrays 
 {
 
@@ -13,6 +16,7 @@ public class CreatingArrays
 			25 float
 		 */
 		
+		//By default, arrays always begin as lists of the value 0 (applied to whatever 0 means in the particular context of that data type), or if it's an object it defaults to nulls.
 		char[] charArr = new char[10];
 		int[] intArr = new int[5];
 		boolean[] boolArr = new boolean[10];

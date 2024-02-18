@@ -1,5 +1,8 @@
 package array_examples;
 
+/**
+ * A Person object. This example was created in class to demonstrate overloading constructors.
+ */
 public class Person 
 {
 	private String name, favoriteColor;
@@ -16,13 +19,13 @@ public class Person
 	
 	public Person(String name, int age)
 	{
-		this(name);
+		this(name); //We can call a different constructor in the first line of any constructor. We call the one on line 11 here.
 		this.age = age;
 	}
 	
 	public Person(String name, int age, String favoriteColor)
 	{
-		this(name, age);
+		this(name, age); //Calls the constructor on line 20 here.
 		this.favoriteColor = favoriteColor;
 	}
 	

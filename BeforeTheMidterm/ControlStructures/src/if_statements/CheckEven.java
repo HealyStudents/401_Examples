@@ -2,6 +2,9 @@ package if_statements;
 
 import java.util.Scanner;
 
+/**
+ * This demonstrates how to write a simple if statement to check if a number is even, using modulo.
+ */
 public class CheckEven 
 {
 

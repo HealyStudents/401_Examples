@@ -1,5 +1,8 @@
 package basic_objects;
 
+/**
+ * An object that represents a tally counter: https://en.wikipedia.org/wiki/Tally_counter
+ */
 public class Counter
 {
     int value;

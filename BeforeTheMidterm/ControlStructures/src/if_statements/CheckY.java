@@ -2,6 +2,9 @@ package if_statements;
 
 import java.util.Scanner;
 
+/**
+ * This code demonstrates five different ways to check if a user has entered "y"
+ */
 public class CheckY 
 {
 
@@ -18,11 +21,12 @@ public class CheckY
 //				System.out.println("Goodbye.");
 //			}
 			
-			//check if starts with y
+			//check if starts with y, using String comparison
 //			if (y.equals( "" + input.charAt(0))){
 //				System.out.println("Goodbye.");
 //			}
-			//check if starts with y
+			
+			//check if starts with y, using character comparison
 //			if (input.charAt(0) == 'y'){
 //				System.out.println("Goodbye.");
 //			}
@@ -32,6 +36,7 @@ public class CheckY
 //				System.out.println("Goodbye.");
 //			}
 			
+			//check if starts with y (ignoring case, simpler)
 			if (input.toLowerCase().charAt(0) == 'y'){
 				System.out.println("Goodbye.");
 			}

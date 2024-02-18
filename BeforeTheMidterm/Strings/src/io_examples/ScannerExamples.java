@@ -2,6 +2,9 @@ package io_examples;
 
 import java.util.Scanner;
 
+/**
+ * A user-oriented program that uses a Scanner object to read in the user's name and age and print them to the screen.
+ */
 public class ScannerExamples 
 {
 

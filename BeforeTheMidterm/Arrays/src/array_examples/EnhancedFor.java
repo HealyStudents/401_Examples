@@ -1,5 +1,8 @@
 package array_examples;
 
+/**
+ * An example use of an enhanced for loop. Note that enhanced for loops can only be used to *GET* values, not *SET* them.
+ */
 public class EnhancedFor 
 {
 

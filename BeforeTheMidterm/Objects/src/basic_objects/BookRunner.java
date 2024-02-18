@@ -1,5 +1,8 @@
 package basic_objects;
 
+/**
+ * This class uses the book and person classes defined in those other two classes.
+ */
 public class BookRunner 
 {
 

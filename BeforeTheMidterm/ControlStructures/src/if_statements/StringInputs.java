@@ -2,6 +2,9 @@ package if_statements;
 
 import java.util.Scanner;
 
+/**
+ * An example of getting String input from the user and a comparison between those inputs.
+ */
 public class StringInputs 
 {
 

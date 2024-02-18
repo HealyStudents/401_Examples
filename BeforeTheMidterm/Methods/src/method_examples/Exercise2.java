@@ -1,5 +1,8 @@
 package method_examples;
 
+/**
+ * This is a code tracing exercise -- looking at the main method, can you predict the output? Something like this could easily be on an exam.
+ */
 public class Exercise2 
 {
 
