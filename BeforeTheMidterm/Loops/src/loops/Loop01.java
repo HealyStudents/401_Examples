@@ -1,5 +1,8 @@
 package loops;
 
+/**
+ * A first example of a while loop -- we use loops to avoid repeating ourselves! 
+ */
 public class Loop01 
 {
 	public static void main(String[] args) 

@@ -1,5 +1,8 @@
 package loops;
 
+/**
+ * A simple example of a while loop that loops 1000 times. There are two examples here and only one is correct -- this code is meant to get us to think about off-by-one errors. Which of these is correct and how do you know?
+ */
 public class Ego 
 {
 

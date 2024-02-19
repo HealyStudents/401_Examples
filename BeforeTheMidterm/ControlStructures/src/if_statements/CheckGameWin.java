@@ -1,5 +1,8 @@
 package if_statements;
 
+/**
+ * This example demonstrates how to use an else-if to chain if statement blocks together.
+ */
 public class CheckGameWin 
 {
 

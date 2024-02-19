@@ -1,5 +1,8 @@
 package constructor_examples;
 
+/**
+ * A circle object with robus constructor and setter.
+ */
 public class Circle 
 {
 	// fields:

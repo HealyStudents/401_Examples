@@ -1,5 +1,8 @@
 package constructor_examples;
 
+/**
+ * A runner class to demonstrate usage of the Circle object.
+ */
 public class CircleRunner {
 
 	public static void main(String[] args) 

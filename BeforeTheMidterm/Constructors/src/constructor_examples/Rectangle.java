@@ -1,5 +1,8 @@
 package constructor_examples;
 
+/**
+ * This class defines a Rectangle object.
+ */
 public class Rectangle 
 {
 	/*
@@ -25,6 +28,9 @@ public class Rectangle
 //		this.sideB = side;
 	}
 	
+	/**
+	 * @return the area of this rectangle.
+	 */
 	public double area()
 	{
 		return sideA * sideB;

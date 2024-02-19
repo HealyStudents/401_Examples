@@ -2,6 +2,13 @@ package if_statements;
 
 public class CheckPrefix 
 {
+	/**
+	 * This method, and its many comments, demonstrate a few ways of checking if two strings have the same 3-character prefix
+	 * 
+	 * @param strA some string
+	 * @param strB some second string
+	 * @return true if the two strings begin with the same three characters, false otherwise.
+	 */
 	public static boolean samePrefix(String strA, String strB)
 	{
 		//Bad and Ugly way of doing it
@@ -36,7 +43,7 @@ public class CheckPrefix
 		String bPrefix = strB.substring(0, 3);
 		return aPrefix.equals(bPrefix);
 
-		//A longer way of writing line 36
+		//A longer way of writing that return statement
 		//		if(aPrefix.equals(bPrefix))
 		//			return true;
 		//		else
@@ -46,6 +53,7 @@ public class CheckPrefix
 
 	public static void main(String[] args) 
 	{
+		//Test our method
 		System.out.println(samePrefix("apple", "application"));
 	}
 

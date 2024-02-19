@@ -1,5 +1,8 @@
 package array_examples;
 
+/**
+ * This demonstrates using a try-catch to handle multiple kinds of exceptions at once. In class, I used this example to discuss why one should never catch a generic `Exception e`.
+ */
 public class ExceptionExample
 {
     public static void main(String[] args) 

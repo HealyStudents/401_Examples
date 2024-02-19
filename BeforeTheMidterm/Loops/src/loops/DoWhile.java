@@ -1,5 +1,10 @@
 package loops;
 
+/**
+ * This example is meant to help illustrate the very small differences between a while and do-while loop. Try changing around the initial values of i to see if behavior changes!
+ * 
+ * One is meant to parse from this example that do-while loops have exactly the same behavior as while loops UNLESS the looping condition is initially false, in which case do-while loops will still execute at least once, but while loops will not.
+ */
 public class DoWhile 
 {
 

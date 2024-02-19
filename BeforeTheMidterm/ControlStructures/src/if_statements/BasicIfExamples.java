@@ -1,5 +1,8 @@
 package if_statements;
 
+/**
+ * Basic examples of how to use an if statement and else case.
+ */
 public class BasicIfExamples 
 {
 	public static void main(String[] args)

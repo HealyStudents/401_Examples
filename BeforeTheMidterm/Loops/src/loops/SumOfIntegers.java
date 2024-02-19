@@ -1,5 +1,8 @@
 package loops;
 
+/**
+ * On line 15, how do we make sure our range is correct and we aren't off by 1?
+ */
 public class SumOfIntegers 
 {
 

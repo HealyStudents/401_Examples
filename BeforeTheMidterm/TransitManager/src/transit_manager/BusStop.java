@@ -7,6 +7,19 @@ public class BusStop
 	double xCoordinate, yCoordinate;
 	int passengersWaiting;
 	
+	public BusStop(String stopName, int stopNumber, double x, double y) 
+	{
+		this.stopName = stopName;
+		this.stopNumber = stopNumber;
+		this.xCoordinate = x;
+		this.yCoordinate = y;
+	}
+	
+	public int getPassengersWaiting()
+	{
+		return passengersWaiting;
+	}
+
 	public void gainPassengers()
 	{
 		passengersWaiting += (Math.random()*25) + 5;
@@ -39,11 +52,14 @@ public class BusStop
 	
 	public static void main(String[] args) 
 	{
-		BusStop bs = new BusStop();
-		bs.stopName = "Oakland";
-		bs.stopNumber = 1267;
+		BusStop bs = new BusStop("Oakland", 1267, 0, 0);
 		bs.gainPassengers();
 		System.out.println(bs);
+	}
+
+	public String getStopName() 
+	{
+		return stopName;
 	}
 
 }

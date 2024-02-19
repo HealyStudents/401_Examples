@@ -1,5 +1,8 @@
 package loops;
 
+/**
+ * This example demonstrates an example of how we may write a loop whose looping condition is based on a String, rather than an integer like many of our previous examples.
+ */
 public class ShrinkingString 
 {
 

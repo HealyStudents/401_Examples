@@ -1,5 +1,8 @@
 package array_examples;
 
+/**
+ * Loop through an array to calculate average. 
+ */
 public class AverageCalculation 
 {
 
@@ -18,6 +21,6 @@ public class AverageCalculation
 		}
 		
 		System.out.println("Sum: " + sum);
-		System.out.println("Average: " + ((double)sum / scores.length));
+		System.out.println("Average: " + ((double)sum / scores.length)); //we had to cast to avoid integer division
 	}
 }

@@ -1,5 +1,8 @@
 package loops;
 
+/**
+ * A demonstration of loop scope problems and how to fix them. The commented-out code does not work because any variable we define *within* a loop no longer exists when the loop is over.
+ */
 public class LoopScope 
 {
 
