@@ -15,14 +15,36 @@ public class Fibonacci
 			element2 = temp;
 			System.out.print(", " + temp);
 		}
+		System.out.println();
 	}
 	
-	
+	//A recursive solution
+	public static void fibonacciRecurse(int number, int x1, int x2)
+	{
+		//generate the next term
+		int nextTerm = x1 + x2;
+		System.out.print(nextTerm + ", ");
+		
+		//base case
+		if(number == 1)
+		{
+			System.out.println();
+			return;
+		}
+		
+		//recursive case
+		fibonacciRecurse(number - 1, x2, nextTerm);
+	}
 
 
 
 	public static void main(String[] args) 
 	{
+		fibonacciLoop(5);
+		fibonacciRecurse(5, 0, 1);
+		fibonacciRecurse(15, 0, 1);
+		fibonacciRecurse(-10, 0, 1);
+		
 		// TODO Auto-generated method stub
 
 	}
