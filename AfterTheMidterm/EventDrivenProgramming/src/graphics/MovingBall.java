@@ -42,6 +42,7 @@ public class MovingBall extends Frame
 		}
 	}
 	
+	//paint the world to the screen
 	public void paint(Graphics2D g)
 	{
 		g.setColor(Color.white);
@@ -51,9 +52,11 @@ public class MovingBall extends Frame
 		g.fillOval(200, this.yCoordinate, 100, 100);
 	}
 	
+	//Update the state of the world
 	public void update()
 	{
-		this.yCoordinate += 5;
+		if(this.yCoordinate < (this.getHeight() - 100))
+			this.yCoordinate += 5;
 	}
 	
 	public static void main(String[] args) throws InterruptedException {

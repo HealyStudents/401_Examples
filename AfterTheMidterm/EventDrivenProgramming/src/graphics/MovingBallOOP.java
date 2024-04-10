@@ -15,7 +15,8 @@ import java.util.concurrent.TimeUnit;
 public class MovingBallOOP extends Frame implements KeyListener
 {
 	private final int FRAME_RATE = 70;
-	private Ball b;
+	private final int NUMBER_OF_BALLS = 1;
+	private ArrayList<Ball> balls;
 	
 	public MovingBallOOP(String name) throws InterruptedException
 	{
@@ -32,9 +33,12 @@ public class MovingBallOOP extends Frame implements KeyListener
 		
 		
 		// TODO: what if we wanted to simulate more than one ball?
-		b = new Ball(Color.red, 10);
-
+		this.balls = new ArrayList<Ball>();
+		for(int i = 0; i < NUMBER_OF_BALLS; i++)
+			this.balls.add(new Ball(10));
+		
 		this.setVisible(true);
+		this.addKeyListener(this);
 		this.run();
 	}
 	
@@ -54,30 +58,43 @@ public class MovingBallOOP extends Frame implements KeyListener
 		g.setColor(Color.white);
 		g.fillRect(0, 0, 500, 500);
 		
-		b.paint(g);
+		g.setColor(Color.orange);
+		g.drawRect(100, 100, 300, 300);
+		
+		for(Ball b : balls)
+			b.paint(g);
 	}
 	
 	public void update()
 	{
-		b.update();
+		for(Ball b : balls)
+			b.update();
 	}
 
 	@Override
 	public void keyTyped(KeyEvent e) {
 		// TODO Auto-generated method stub
-		System.out.println("Key typed!");
+		//System.out.println("Key typed!");
 	}
 
 	@Override
 	public void keyPressed(KeyEvent e) {
-		System.out.println("Key pressed!");
-		System.out.println(e.getKeyChar());
+		//System.out.println("Key pressed!");
+		//System.out.println(e.getKeyChar());
 		
+		//If we press the spacebar
+		if(e.getKeyChar() == ' ')
+			this.balls.add(new Ball(10));
+		
+		//If we press the down key
+		if(KeyEvent.VK_DOWN == e.getKeyCode())
+			this.balls.add(new Ball(10));
 	}
 
 	@Override
 	public void keyReleased(KeyEvent e) {
-		// TODO Auto-generated method stub
+		//System.out.println("Key released!");
+		//System.out.println(e.getKeyChar());
 		
 	}
 	
