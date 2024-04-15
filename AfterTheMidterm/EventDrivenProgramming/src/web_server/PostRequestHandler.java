@@ -21,6 +21,7 @@ public class PostRequestHandler implements HttpHandler
 		//The HomepageHandler can ONLY handle GET requests (no one should be posting data to this endpoint)
 		if(method.equals("POST"))
 		{
+			//Print out a debug message
 			System.out.println(LocalDate.now().toString() + "_" + LocalTime.now().toString() + ": POST /");
 
 			//We can grab an InputStream tied to the data posted by the user
